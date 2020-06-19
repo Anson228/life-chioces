@@ -91,32 +91,18 @@ public class Choices extends javax.swing.JFrame {
         num1.setText("Choose a number from 1 or 2  and write in the Textfield");
 
         prompt1.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        prompt1.setText("...");
 
         prompt2.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        prompt2.setText("...");
 
         prompt3.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        prompt3.setText("...");
 
         prompt4.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        prompt4.setText("...");
 
         prompt5.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        prompt5.setText("...");
 
         prompt6.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        prompt6.setText("...");
 
         Screen1.setText("Life choices");
-
-        Screen2.setText("...");
-
-        Screen3.setText("...");
-
-        Screen4.setText("...");
-
-        Screen5.setText("...");
 
         again.setText("Start");
         again.addActionListener(new java.awt.event.ActionListener() {
@@ -170,7 +156,6 @@ public class Choices extends javax.swing.JFrame {
         });
 
         prompt7.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        prompt7.setText("...");
 
         level.setText("level up");
         level.addActionListener(new java.awt.event.ActionListener() {
@@ -180,7 +165,6 @@ public class Choices extends javax.swing.JFrame {
         });
 
         prompt8.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        prompt8.setText("...");
 
         job.setText("Long job");
         job.addActionListener(new java.awt.event.ActionListener() {
@@ -190,7 +174,6 @@ public class Choices extends javax.swing.JFrame {
         });
 
         prompt9.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        prompt9.setText("...");
 
         Leave.setText("reverse");
         Leave.addActionListener(new java.awt.event.ActionListener() {
@@ -398,7 +381,7 @@ public class Choices extends javax.swing.JFrame {
         switch(number){            // Different choices have different results
             case 1:
             Screen1.setText("When you reach middle age, what do you do once you face a hair loss crisis.");
-            Screen2.setText("");
+            Screen2.setText("Hair transplant or Shave head");
             Screen3.setText("");
             Screen4.setText("");
             Screen5.setText("");
@@ -722,9 +705,20 @@ public class Choices extends javax.swing.JFrame {
                 Screen4.setText("");
                 Screen5.setText("");
                 prompt8.setText("");
+                //Output the end
+                Stay.setText("End");
+                date.setText("End");
+                house.setText("End");
+                Film.setText("End");
+                date2.setText("End");
+                Angel.setText("End");
+                level.setText("End");
+                job.setText("End");
+                Leave.setText("End");
+                Accept.setText("End");
                 break;
             case "B": case "b":
-                Screen1.setText("Under your education.");
+                Screen1.setText("Under your education,");
                 Screen2.setText("20 years later, Your son has the opportunity to study and work abroad!");
                 Screen3.setText("Make your choices.");
                 Screen4.setText("Let the children go home or Stay abroad.");
@@ -741,7 +735,7 @@ public class Choices extends javax.swing.JFrame {
         Screen1.setText("Hair transplant almost consumes your property.You still have a lot of debt.");
         Screen2.setText("You have a long-term job in your company which is far from your home.");
         //Give the user choices
-        Screen3.setText("Do you want to choose?");
+        Screen3.setText("Do you want to go?");
         Screen4.setText("Yes or No");
         Screen5.setText("");
         A.setText(String.valueOf("Yes"));
